@@ -1,0 +1,37 @@
+.product small {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #7296a1;
+  font-weight: 500;
+}
+.product {
+  padding: 2% 1%;
+  text-align: start;
+}
+.product p {
+  color: #1d2b36;
+  font-size: 18px;
+  font-weight: 500;
+
+  /* border-bottom: 1px solid #e0e0e0; */
+  margin-top: 5%;
+  height: 60px;
+  overflow-y: auto;
+}
+.reating {
+  color: #f6b100;
+}
+.product_price {
+  display: flex;
+  border-top: 1px solid #e0e0e0;
+  padding: 5% 0;
+}
+.product_price p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 5%;
+  color: #1d2b36;
+}
+.card-icon {
+  color: #51738e;
+}

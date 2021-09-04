@@ -1,0 +1,138 @@
+.products-title {
+  text-align: center;
+}
+.products-title h3 {
+  font-size: 50px;
+  font-weight: 550;
+  color: #1d2b36;
+}
+.products-title p {
+  font-size: 16px;
+  color: #afafaf;
+  padding-top: 5px;
+  padding-bottom: 5%;
+}
+.blager-img {
+  position: relative;
+  top: -440px;
+  overflow: hidden !important;
+}
+@media (max-width: 1399px) {
+  .blager-img {
+    position: relative;
+    top: -401px !important;
+  }
+}
+@media (max-width: 1199px) {
+  .blager-img {
+    position: relative;
+    top: -360px !important;
+  }
+}
+@media (max-width: 991px) {
+  .blager-img {
+    position: relative;
+    top: -307px !important;
+  }
+}
+@media (max-width: 767px) {
+  .blager-img {
+    position: relative;
+    top: -268px !important;
+  }
+}
+@media (max-width: 675px) {
+  .blager-img {
+    position: relative;
+    top: -268px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .blager-img {
+    position: relative;
+    top: -361px !important;
+  }
+  .kids-collection {
+    position: relative;
+    top: -47px !important;
+  }
+  .winterPastels {
+    position: relative;
+    top: 110px !important;
+  }
+  .PopulerMenCollection_productTitle {
+    position: relative;
+    top: 77px !important;
+  }
+  .products-title h3 {
+    font-size: 43px;
+  }
+}
+/* .winterPastels {
+  background-image: url("../../../../../Images/PopulerMenCollection/168.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
+/*  */
+.sweetTshirt {
+  position: relative;
+  top: -152px;
+  overflow: hidden !important;
+}
+@media (max-width: 991px) {
+  .sweetTshirt {
+    position: relative;
+    top: -154px !important;
+  }
+}
+@media (max-width: 575px) {
+  .sweetTshirt {
+    position: relative;
+    top: -204px !important;
+  }
+}
+/*  */
+.collection-detls {
+  position: relative;
+  top: -154px;
+  color: white;
+  background: linear-gradient(transparent, #00000085, black) !important;
+  padding: 20px;
+  overflow: hidden !important;
+}
+.collection-detls h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.collection-detls button {
+  background-color: #00000000;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.collection-detls-blazer {
+  position: relative;
+  top: -153px;
+  color: white;
+  background: linear-gradient(145deg, black, black, black) !important;
+}
+.collection-detls-blazer button {
+  background-color: black;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.PopulerMenCollection {
+  overflow: hidden !important;
+}
+.collection-card {
+  transition: all 0.5s ease-in-out;
+}
+.collection-card:hover {
+  transform: scale(0.9);
+}

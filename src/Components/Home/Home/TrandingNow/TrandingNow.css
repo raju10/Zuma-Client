@@ -1,0 +1,18 @@
+.tranding-collection-price {
+  text-decoration: line-through;
+  color: #afafaf;
+  padding: 0px 3%;
+}
+.tranding-now-collection big {
+  color: #7296a1;
+  font-size: 13px;
+  font-weight: 500;
+}
+.tranding-now-collection h4 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  border-bottom: 1px solid #8080804a;
+  padding-bottom: 7%;
+  padding-top: 3%;
+}

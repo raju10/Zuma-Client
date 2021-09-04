@@ -1,0 +1,66 @@
+.ourTeamImg1 {
+  width: 100%;
+  margin-left: 24px;
+}
+.ourTeamImg2 {
+  width: 100%;
+  position: relative;
+  top: -55px;
+}
+.ourTeamImg3 {
+  width: 100%;
+  margin-left: -24px;
+}
+@media (max-width: 575px) {
+  .ourTeamImg1 {
+    margin-left: 0px;
+  }
+  .ourTeamImg2 {
+    position: none;
+    top: 0px !important;
+  }
+  .ourTeamImg3 {
+    margin-left: 0px;
+  }
+  .ourTeams-container {
+    padding: 10px 30px;
+  }
+  .sec-team-member-name {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 1399px) {
+  .ourTeamImg2 {
+    position: relative;
+    top: -45px;
+  }
+}
+@media (max-width: 1199px) {
+  .ourTeamImg2 {
+    position: relative;
+    top: -39px;
+  }
+}
+@media (max-width: 991px) {
+  .ourTeamImg2 {
+    position: relative;
+    top: -28px;
+  }
+}
+@media (max-width: 767px) {
+  .ourTeamImg2 {
+    position: relative;
+    top: -20px;
+  }
+}
+.team-buttons {
+  padding: 10px 60px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #4c8494;
+  color: #7296a1;
+  background-color: white;
+}
+.team-member-name {
+  padding-top: 10%;
+}

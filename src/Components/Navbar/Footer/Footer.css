@@ -1,0 +1,28 @@
+.subscriber {
+  background-image: linear-gradient(
+      272deg,
+      #7296a1,
+      #4e4e4e69,
+      #4e4e4e73,
+      #7296a1
+    ),
+    url(../../../Images/Footer-img/brush.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: center;
+  color: white;
+  text-align: center;
+  padding: 5% 0;
+  margin-top: 4%;
+}
+.footer-subscribe-btn {
+  text-transform: uppercase;
+  padding: 5px 24px;
+  background-color: #111;
+  color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 2px;
+}

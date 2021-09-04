@@ -1,0 +1,56 @@
+.ourExperienceImg {
+  background-image: linear-gradient(148deg, #2521216b, #000000ad, #3e0c0cad),
+    url("../../../../Images/logo/slice1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 8% 0;
+  color: white;
+}
+.our-experiances-container {
+  position: relative;
+  top: -180px;
+}
+@media (max-width: 575px) {
+  .our-experiances-container {
+    position: relative;
+    top: -57px;
+  }
+  .our-experiances-title {
+    padding-right: none !important;
+    text-align: end;
+  }
+  .our-experiances-title h2 {
+    font-size: 34px !important;
+  }
+  .our-experiances-titlem p {
+    font-size: 14px !important;
+  }
+  .our-experiances-title button {
+    padding: 10px 27px;
+    font-size: 11px;
+  }
+}
+.our-experiances-title {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20%;
+  line-height: 1.15;
+}
+.our-experiances-title h2 {
+  font-size: 52px;
+
+  font-weight: 500;
+}
+.our-experiances-title p {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.buttons {
+  padding: 12px 58px;
+  font-size: 13px;
+  color: #2f3944e0;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+}

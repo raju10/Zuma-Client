@@ -1,0 +1,79 @@
+.card-img img {
+  width: 100%;
+}
+.header {
+  background-color: #6b5b4a;
+
+  /* background-image: url("../../../../Images/header-img/brush-p-800.png"); */
+  padding: 0px 15% !important;
+}
+.header-wrapper {
+  display: grid;
+
+  grid-gap: 30px;
+
+  place-items: center;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  justify-content: center !important;
+  align-items: center !important;
+}
+.header-img {
+  /* display: flex; */
+  background-image: url("../../../../Images/header-img/burshbg30.8x-p-1080.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.headerMan-img {
+  position: relative;
+  left: 111px;
+}
+.header-title h2 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: white;
+}
+/* // */
+.header-img {
+  background-image: linear-gradient(#86796b00, #86796b8f),
+    url("../../../../Images/header-img/burshbg30.8x-p-1080.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.header-button-title {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  padding: 17px 22px;
+  border-radius: 100%;
+  background-color: #86796b;
+  margin-right: 10px;
+}
+.header-buttons {
+  padding: 8px 26px !important;
+  border: none;
+  color: #2f3944e0;
+  font-size: 17px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.slick-dots {
+  text-align: end !important;
+  bottom: 6px;
+  color: white;
+}
+/* .slick-dots li {
+  width: 25px;
+} */
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: white !important;
+}
+.slick-dots li button {
+  color: white !important;
+}
