@@ -38,7 +38,7 @@ const Order = () => {
     };
     console.log(orderData);
     axios
-      .post("http://localhost:1000/order", orderData)
+      .post("https://safe-earth-08573.herokuapp.com/order", orderData)
 
       .then((data) => {
         console.log(data);

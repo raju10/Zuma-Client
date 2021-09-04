@@ -20,12 +20,12 @@ const ShopByCategoryDetls = ({ category }) => {
   const [product, setProduct] = useState([]);
   console.log(product);
   useEffect(() => {
-    fetch(`http://localhost:1000/todo`)
+    fetch(`https://safe-earth-08573.herokuapp.com/todo`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data.rasult);
       });
-  }, []);
+  }, [product]);
 
   // data close
   let settings = {

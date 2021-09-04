@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-import { useEffect } from "react";
+
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import Dataa from "./Practice/Category/Dataa/Dataa";
@@ -22,7 +22,7 @@ const Admains = () => {
       catagory: data.catagory,
     };
     // axios
-    //   .post("http://localhost:1000/todo", datass)
+    //   .post("https://safe-earth-08573.herokuapp.com/todo", datass)
 
     //   .then((data) => {
     //     console.log(data);
@@ -43,7 +43,7 @@ const Admains = () => {
     const dataa = { data, ...datas };
     setMenCatagory(dataa);
     axios
-      .post("http://localhost:1000/todo", dataa)
+      .post("https://safe-earth-08573.herokuapp.com/todo", dataa)
 
       .then((data) => {
         console.log(data);

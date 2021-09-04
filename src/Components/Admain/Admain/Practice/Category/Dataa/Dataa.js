@@ -15,7 +15,7 @@ const Dataa = ({ datas }) => {
     const allData = { ...datas, data, imgUrl };
     console.log(allData);
     axios
-      .post("http://localhost:1000/todo", allData)
+      .post("https://safe-earth-08573.herokuapp.com/todo", allData)
 
       .then((data) => {
         console.log(data);
